@@ -1,0 +1,101 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+td {
+    padding: 10px;
+    width: 800px;
+    border: 1px solid #000000;
+    text-align: center;
+    background-color: #cccccc;
+    font: bold 15px Arial;
+}
+
+#seznamPojistenych th {
+    padding: 10px;
+    width: 800px;
+    border: 1px solid #000000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 44, 44);
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 100px;
+    font-size: 18px;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+}
+
+#menu li {
+    margin-right: 20px; /* Přidává prostor mezi položkami menu */
+}
+
+#menu li:last-child {
+    margin-right: 0; /* Odstraní prostor u poslední položky */
+}
+
+#menu a {
+    text-decoration: none; /* Odstraní podtržení odkazu */
+    color: inherit; /* Nastaví barvu textu stejnou jako je okolní text */
+}
+
+#menu a:hover {
+    text-decoration: underline; /* Přidá podtržení při najetí myši */
+}
+
+.stranka {
+    background-color: #ffffff; /* Nastaví bílé pozadí */
+    margin: 20px; /* Nastaví okraje kolem divu */
+    padding: 20px; /* Nastaví padding uvnitř divu */
+    border: 1px solid #cccccc; /* Nastaví jednopixelový pevný rám */
+}
+
+#seznamPojistenych button {
+    background-color: rgb(102, 99, 99);
+    font: bold 15px Arial; /* Změní pozadí tlačítka na červenou */
+    color: white; /* Změní barvu textu na bílou pro lepší čitelnost */
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* Změníme tlačítko na blokový element */
+}
+
+.btnUlozit {
+    background-color: rgb(102, 99, 99);
+    font: bold 15px Arial; /* Změní pozadí tlačítka na červenou */
+    color: white; /* Změní barvu textu na bílou pro lepší čitelnost */
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+#formNovyPojistenec {
+    padding: 20px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000000;
+    display: flex;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.formularovyRadek {
+    width: 200px;
+    margin: 20px;
+    height: 30px;
+}

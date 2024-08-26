@@ -1,0 +1,11 @@
+
+a.nav-link.active:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.ramecek {
+    border-style: solid;
+    border: 1px;
+    border-color: black;
+}
